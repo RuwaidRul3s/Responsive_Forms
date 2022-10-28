@@ -1,0 +1,8 @@
+Radio buttons ===> the name is the same for all radio buttons withing the same group of items 
+
+Radio buttons ===>  only the ID , Value change . 
+
+############################################################################
+
+for creating selection use <select> <option > </select> 
+

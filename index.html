@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h1>Responsive Forms</h1>
+
+
+    <!-- Creating Form -->
+
+    <form>
+        <!-- Creating Name input -->
+        <label for="name" class="form-title">Name:</label>
+        <input type="text" name="name" id="name">
+        <!-- Creating  Email input -->
+        <label for="email" class="form-title">Email:</label>
+        <input type="email" name="email" id="email">
+
+        <!-- Creating Radio buttons for Social media accounts-->
+        <label class="form-title">Socail media accounts</label>
+        <!-- Snap chat radio button -->
+        <label class="choice">
+            <input type="radio" name="radio" id="SC" value="snapchat">
+            Snapchat
+        </label>
+        <!-- Creating Facebook radio button -->
+        <label class="choice">
+            <input type="radio" name="radio" id="fb" value="facebook">
+            Facebook
+        </label>
+        <!-- Creating Instagram radio button -->
+        <label class="choice">
+            <input type="radio" name="radio" id="IG" value="instagram">
+            Instagram
+        </label>
+        <!-- Creating Age Selection drop down -->
+        <label for="select" class="form-title">Age:</label>
+        <select name="select" id="select">
+            <option value="age-group-1">1-17</option>
+            <option value="age-group-2">18-50</option>
+            <option value="age-group-3">&gt50</option>
+        </select>
+        <!-- Creating TextArea for the message -->
+        <label for="message" class="form-title">Message:</label>
+        <textarea id="message" name="message" cols="50" rows="8">
+
+        </textarea>
+
+        <!-- Submit button -->
+        <input type="submit" value="Send message">
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+we are designing the form in mobile-first approach 
+
+after writting the HTML markup for the form , we can see that the elemens are in the same line and everything is squiched 
+
+
+############################################## Responsive pattern ######################################################
+
+
+1===>  giving input some breathing room 
+
+change inline ==> block element ( each element have its own line ) 
+
+
+
+2===> Increasing hit state  
+
+44 X 44 px wide per element (standard and depends on the resolution of the screen ) 
+
+
+note ==> to make radion/checkbox larger just increase the option text size 
+
